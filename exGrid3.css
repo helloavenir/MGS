@@ -1,0 +1,37 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: 100px;
+  gap: 10px;
+  width : 300px;
+}
+
+.grid-item {
+  background-color: bisque;
+}
+
+.grid-item:nth-child(1) {
+  order: 1;
+  grid-column: 2/4 ;
+}
+
+.grid-item:nth-child(6) {
+  order: 2;
+}
+
+.grid-item:nth-child(6) {
+  order: 2;
+}
+
+.grid-item:nth-child(7) {
+  order: 2;
+}
+
+.grid-item:nth-child(9) {
+  order: 3;
+}
+.grid-item:nth-child(8) {
+  order: 4;
+  grid-column: 1/3 ;
+}
+

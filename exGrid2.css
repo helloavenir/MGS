@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-auto-rows: 100px;
+  gap: 10px;
+  width : 300px;
+}
+
+.grid-item {
+  background-color: bisque;
+}
+
