@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  
+  
+}
+
+.insta-container{
+  width: 425px;
+  height: 765px;
+  
+}
+
+.title-wrapper {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.headerE {  
+  display: flex;
+  text-align: center;
+} 
+#camera-icon { 
+  width: 5vw;   
+  height: 5vw;
+}
+
+#dm-icon {   
+  width: 5vw;   
+  height: 5vw;
+}
+
+#insta-logo {
+  width: 25vw;
+  padding: 0 15vw;
+  
+}
+
+.myStories-wrapper{
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  height: 13vh;
+  width: 100vw;
+  padding-top: 1.5vh ;
+  
+  background-color: rgb(235, 238, 241); 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  
+}
+
+.myStories-img{
+  width: 12vw;
+  height: 12vw;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  border: 1px solid rgb(27, 162, 192);  
+}
+
+.myStorie-text{
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bold;
+  display: inline-block;  
+}
+
+.profile-wrapper{
+  display: flex;
+  width: 100vw;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  
+  
+}
+
+#narrow-profile{
+
+  width: 100vw;
+  padding-left: 3vw;
+}
+
+
+.my-img{
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+  border-radius: 50%;
+  align-items: center;
+ 
+
+}
+
+.my-name{
+  font-size: 3vw;
+  font-weight: bold;
+  display: inline-block;
+
+  
+  
+
+}
+
+#menu-image{
+  float:right;
+  align-items: center;
+  width: 100vw;
+  padding-right: 7vw;
+  width: 5vw;
+  height: 5vw; 
+}
+#hamburger{
+  align-items: center;
+  padding-top: 4vw;
+}
+.post{
+  width: 100vw;
+  height: 100vw;
+
+}
+
+.feed-wrapper{
+  width: 100vw;
+  padding-left: 4vw;
+  height: 5vh;
+}
+.feed-icon {
+  display: flex;
+  padding-top: 2vh;
+  position:relative;
+}
+icon-left {
+  float: left;
+}
+
+.icons{
+  padding: 1vw;
+  
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+}
+
+#icon-right {
+  padding: 1vw;
+  
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+  position: absolute;
+  margin-right: 3vw;
+}
+
+.feed-box{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+
+}
+
+#nom-text{
+
+}
+#time{
+  font-size: 2vw;
+
+}
+
+#lowerNav{
+  
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  bottom: 1vw;
+  align-items: center;
+}
+
+.navIcon{
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;  
+}
+  
