@@ -1,0 +1,35 @@
+<!-- 앞서 작성한 연습문제 4-0의 조건을 만족하면서 input element에 color를 입력하고 
+enter를 누르면 document.body element에 해당 color를 background로 가지는 div를 추가하도록
+html 및 script를 작성해보기 -->
+
+<html>
+  <style>
+    .coloredDiv {
+      display: inline-block;
+      height: 100px;
+      width: 100px;
+      margin: 10px;
+    }
+  </style>
+
+  <body>
+    <form>
+      <input placeholder='div 박스의 원하는 색을 입력하고 enter' />
+    </form> 
+    <div class="coloredDivs"></div>
+  </body> 
+  <script>
+    const input = document.getElementsByTagName('input');
+    const form = document.getElementsByTagName('form');
+    const coloredDiv = document.getElementsByClassName('coloredDiv');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();  // submit의 디폴트 동작인 새로고침 하지 말고
+
+      const newDiv = document.createElement('div');
+      newDiv.className = 'coloredDiv';
+      newDivs.style.backgroundColor = input.value;
+      input.value = '';
+      coloredDivs.appendChild(coloredDiv);
+    })
+  </script>
+</html>
